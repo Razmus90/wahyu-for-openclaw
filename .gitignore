@@ -7,3 +7,6 @@ memory/
 *.key
 *.pem
 *.secret
+
+# Node modules for local MCP
+jcodemunch-mcp/node_modules/

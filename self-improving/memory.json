@@ -1,6 +1,12 @@
 {
   "last_audit": "",
-  "improvements": [],
+  "improvements": [
+    {
+      "timestamp": "2026-03-14T07:34:00Z",
+      "note": "Rebuilt jcodemunch MCP locally with TypeScript entry activating the original server, and compiled artifacts placed under build/.",
+      "tags": ["jcodemunch", "infra"]
+    }
+  ],
   "knowledge_base": [],
   "vape_store_notes": []
 }

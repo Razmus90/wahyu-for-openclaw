@@ -1,16 +1,18 @@
 {
   "name": "jcodemunch-mcp",
   "version": "1.0.0",
-  "description": "Offline MCP helper untuk kerja kode rapih di workspace.",
-  "main": "index.js",
-  "type": "commonjs",
+  "type": "module",
+  "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "node build/index.js"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.0.0"
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "zod": "^4.3.6"
   },
-  "keywords": ["mcp", "jcodemunch", "self-improve"],
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^5.9.3"
+  }
 }
