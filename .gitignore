@@ -1,0 +1,9 @@
+# Ignore OpenClaw runtime state and caches
+.openclaw/
+memory/
+*.tmp
+*.log
+# Keep secrets out of version control
+*.key
+*.pem
+*.secret
